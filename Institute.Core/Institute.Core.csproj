@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Managers\" />
+    <None Remove="Payments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Managers\" />
+    <Folder Include="Payments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Institute.Models\Institute.Models.csproj" />
+    <ProjectReference Include="..\Institute.Infrastructure\Institute.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+
+# Microsoft Visual Studio
+.vs/
+
+# Others
+.DS_Store

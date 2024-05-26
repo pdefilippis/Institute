@@ -1,0 +1,829 @@
+{
+  "Institute.Infrastructure.dll": {
+    "/Users/pdefilippis/Projects/Institute/Institute.Infrastructure/CourseRepository.cs": {
+      "Institute.Infrastructure.CourseRepository": {
+        "Institute.Models.Models.Result`1<System.Int32> Institute.Infrastructure.CourseRepository::Create(Institute.Models.Models.Course)": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Infrastructure.CourseRepository::Exist(Institute.Models.Models.Course)": {
+          "Lines": {
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Infrastructure/PaymentRepository.cs": {
+      "Institute.Infrastructure.PaymentRepository": {
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Infrastructure.PaymentRepository::ExistPayment(System.Int32,System.Int32)": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Infrastructure.PaymentRepository::Register(System.Decimal,System.Int32,System.Int32)": {
+          "Lines": {
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Infrastructure/StudentRepository.cs": {
+      "Institute.Infrastructure.StudentRepository": {
+        "Institute.Models.Models.Result`1<System.Int32> Institute.Infrastructure.StudentRepository::Create(Institute.Models.Models.Student)": {
+          "Lines": {
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Infrastructure.StudentRepository::Exists(Institute.Models.Models.Student)": {
+          "Lines": {
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<System.Collections.Generic.ICollection`1<Institute.Models.Models.Student>> Institute.Infrastructure.StudentRepository::GetStudentsByCouseOfDate(System.Nullable`1<System.DateTime>,System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Institute.Models.dll": {
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Validators/CourseValidator.cs": {
+      "Institute.Models.Validators.CourseValidator": {
+        "System.Void Institute.Models.Validators.CourseValidator::Validate(Institute.Models.Models.Course)": {
+          "Lines": {
+            "9": 15,
+            "11": 15
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Validators/PaymentValidator.cs": {
+      "Institute.Models.Validators.PaymentValidator": {
+        "System.Void Institute.Models.Validators.PaymentValidator::Validate(Institute.Models.Models.Payment)": {
+          "Lines": {
+            "9": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Validators/StudentValidator.cs": {
+      "Institute.Models.Validators.StudentValidator": {
+        "System.Void Institute.Models.Validators.StudentValidator::Validate(Institute.Models.Models.Student)": {
+          "Lines": {
+            "10": 17,
+            "11": 17,
+            "12": 0,
+            "13": 0,
+            "15": 17
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 24,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 17
+            }
+          ]
+        },
+        "System.Int32 Institute.Models.Validators.StudentValidator::CalculateAge(System.DateTime,System.DateTime)": {
+          "Lines": {
+            "18": 17,
+            "19": 17,
+            "20": 17,
+            "21": 16,
+            "22": 16,
+            "25": 1,
+            "26": 17
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 16
+            },
+            {
+              "Line": 20,
+              "Offset": 33,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Models/Course.cs": {
+      "Institute.Models.Models.Course": {
+        "System.String Institute.Models.Models.Course::get_Name()": {
+          "Lines": {
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_Name(System.String)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Institute.Models.Models.Course::get_RegistrationFee()": {
+          "Lines": {
+            "42": 6
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_RegistrationFee(System.Decimal)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Institute.Models.Models.Course::get_Start()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_Start(System.DateTime)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Institute.Models.Models.Course::get_End()": {
+          "Lines": {
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_End(System.DateTime)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Institute.Models.Models.Student> Institute.Models.Models.Course::get_Students()": {
+          "Lines": {
+            "72": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_Students(System.Collections.Generic.ICollection`1<Institute.Models.Models.Student>)": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Institute.Models.Models.Course::get_Id()": {
+          "Lines": {
+            "82": 7
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::set_Id(System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "84": 5,
+            "85": 5,
+            "86": 5,
+            "87": 5
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Course::.ctor(System.String,System.Decimal,System.DateTime,System.DateTime,Institute.Models.Validators.ICourseValidator)": {
+          "Lines": {
+            "19": 10,
+            "20": 10,
+            "21": 10,
+            "22": 10,
+            "23": 10,
+            "24": 10,
+            "25": 10,
+            "27": 10,
+            "28": 10
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            }
+          ]
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Models/Payment.cs": {
+      "Institute.Models.Models.Payment": {
+        "System.Decimal Institute.Models.Models.Payment::get_Fee()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Payment::set_Fee(System.Decimal)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Institute.Models.Models.Payment::get_Course()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Payment::set_Course(System.Int32)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Institute.Models.Models.Payment::get_Student()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Payment::set_Student(System.Int32)": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Payment::.ctor(System.Decimal,System.Int32,System.Int32,Institute.Models.Validators.IPaymentValidator)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Models/Result.cs": {
+      "Institute.Models.Models.Result`1": {
+        "T Institute.Models.Models.Result`1::get_Value()": {
+          "Lines": {
+            "6": 46
+          },
+          "Branches": []
+        },
+        "System.Boolean Institute.Models.Models.Result`1::get_IsSucces()": {
+          "Lines": {
+            "7": 50
+          },
+          "Branches": []
+        },
+        "System.String Institute.Models.Models.Result`1::get_Error()": {
+          "Lines": {
+            "8": 40
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<T> Institute.Models.Models.Result`1::Success(T)": {
+          "Lines": {
+            "17": 14
+          },
+          "Branches": []
+        },
+        "Institute.Models.Models.Result`1<T> Institute.Models.Models.Result`1::Failure(System.String)": {
+          "Lines": {
+            "18": 28
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Result`1::.ctor(T,System.Boolean,System.String)": {
+          "Lines": {
+            "10": 42,
+            "11": 42,
+            "12": 42,
+            "13": 42,
+            "14": 42,
+            "15": 42
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Models/Models/Student.cs": {
+      "Institute.Models.Models.Student": {
+        "System.String Institute.Models.Models.Student::get_FirsName()": {
+          "Lines": {
+            "28": 2
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::set_FirsName(System.String)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Institute.Models.Models.Student::get_LastName()": {
+          "Lines": {
+            "38": 2
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::set_LastName(System.String)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Institute.Models.Models.Student::get_Birthday()": {
+          "Lines": {
+            "48": 17
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::set_Birthday(System.DateTime)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Institute.Models.Models.Course> Institute.Models.Models.Student::get_Courses()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::set_Courses(System.Collections.Generic.ICollection`1<Institute.Models.Models.Course>)": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Institute.Models.Models.Student::get_Id()": {
+          "Lines": {
+            "68": 8
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::set_Id(System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "70": 5,
+            "71": 5,
+            "72": 5,
+            "73": 5
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Models.Models.Student::.ctor(System.String,System.String,System.DateTime,Institute.Models.Validators.IStudentValidator)": {
+          "Lines": {
+            "16": 12,
+            "17": 12,
+            "18": 12,
+            "19": 12,
+            "20": 12,
+            "21": 12,
+            "23": 12,
+            "24": 12
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Institute.Core.dll": {
+    "/Users/pdefilippis/Projects/Institute/Institute.Core/Payments/PaymentService.cs": {
+      "Institute.Core.Payments.PaymentService": {
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Core.Payments.PaymentService::ProcessPayment(System.Decimal)": {
+          "Lines": {
+            "15": 4,
+            "16": 4,
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Void Institute.Core.Payments.PaymentService::.ctor(Institute.Core.Payments.IPayment)": {
+          "Lines": {
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Core/Managers/CourseManager.cs": {
+      "Institute.Core.Managers.CourseManager": {
+        "Institute.Models.Models.Result`1<System.Int32> Institute.Core.Managers.CourseManager::Create(Institute.Models.Models.Course)": {
+          "Lines": {
+            "17": 5,
+            "18": 5,
+            "19": 1,
+            "21": 4,
+            "22": 4,
+            "23": 1,
+            "25": 3,
+            "26": 1,
+            "29": 2,
+            "30": 5
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 22,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 46,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 25,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 72,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Institute.Core.Managers.CourseManager::.ctor(Institute.Infrastructure.ICourseRepository)": {
+          "Lines": {
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/pdefilippis/Projects/Institute/Institute.Core/Managers/StudentManager.cs": {
+      "Institute.Core.Managers.StudentManager": {
+        "Institute.Models.Models.Result`1<System.Int32> Institute.Core.Managers.StudentManager::Create(Institute.Models.Models.Student)": {
+          "Lines": {
+            "24": 5,
+            "25": 5,
+            "26": 1,
+            "28": 4,
+            "29": 4,
+            "30": 1,
+            "32": 3,
+            "33": 1,
+            "35": 2,
+            "36": 2,
+            "37": 1,
+            "39": 1,
+            "41": 5
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 32,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 77,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 135,
+              "EndOffset": 137,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 135,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        },
+        "Institute.Models.Models.Result`1<System.Collections.Generic.ICollection`1<Institute.Models.Models.Student>> Institute.Core.Managers.StudentManager::GetStudentsByCouseOfDate(System.Nullable`1<System.DateTime>,System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "46": 1,
+            "48": 1,
+            "49": 2
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 20,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 45,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 46,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "Institute.Models.Models.Result`1<System.Boolean> Institute.Core.Managers.StudentManager::HireCourse(Institute.Models.Models.Student,Institute.Models.Models.Course)": {
+          "Lines": {
+            "52": 6,
+            "53": 6,
+            "54": 2,
+            "56": 4,
+            "58": 4,
+            "59": 1,
+            "61": 3,
+            "62": 1,
+            "65": 2,
+            "66": 6
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 53,
+              "Offset": 15,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 39,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 58,
+              "Offset": 93,
+              "EndOffset": 95,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 93,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 61,
+              "Offset": 122,
+              "EndOffset": 124,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 122,
+              "EndOffset": 137,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Institute.Core.Managers.StudentManager::.ctor(Institute.Infrastructure.IStudentRepository,Institute.Infrastructure.IPaymentRepository,Institute.Core.Payments.IPayment)": {
+          "Lines": {
+            "15": 13,
+            "16": 13,
+            "17": 13,
+            "18": 13,
+            "19": 13,
+            "20": 13,
+            "21": 13
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
